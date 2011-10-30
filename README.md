@@ -6,6 +6,10 @@ This tool allows you to verify a users telephone number by presenting them with 
 
 Download and extract the twilio PHP library into the libraries/twilio folder. https://github.com/twilio/twilio-php.
 
+###
+
+A UserAdapter class is included which includes required methods and skeleton functionality for this tool to work with user objects within your own framework.  You should update the logic in this file to make it compatible with your own user objects, and pass user objects to it.  This provides a common/standard interface for the tool to access.
+
 ### Making the call
 
 	require_once( 'PhoneVerification.class.php' );
