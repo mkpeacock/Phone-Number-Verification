@@ -8,7 +8,7 @@ Download and extract the twilio PHP library into the libraries/twilio folder. ht
 
 ### Making the call
 
-	require_once( 'PhoneVerification.php' );
+	require_once( 'PhoneVerification.class.php' );
 	require_once( 'UserAdapter.class.php' );
 	
 	// You should update the adapter code to work with your framework/application
@@ -22,7 +22,7 @@ Download and extract the twilio PHP library into the libraries/twilio folder. ht
 	
 ### Handling the call
 
-	require_once( 'PhoneVerification.php' );
+	require_once( 'PhoneVerification.class.php' );
 	require_once( 'UserAdapter.class.php' );
 	
 	$user = new UserAdapter( $myApplicationsUserObject );
