@@ -4,6 +4,8 @@ This tool allows you to verify a users telephone number by presenting them with 
 
 ## Usage
 
+Download and extract the twilio PHP library into the libraries/twilio folder. https://github.com/twilio/twilio-php.
+
 ### Making the call
 
 	require_once( 'PhoneVerification.php' );
